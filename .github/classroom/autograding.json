@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Blank Test",
+      "setup": "g++ main.cpp box.cpp dice.cpp",
+      "run": "./a.out",
+      "input": "0\r\n0\r\n0",
+      "output": "Score: 45",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
